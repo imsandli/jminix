@@ -4,7 +4,7 @@
 	<groupId>org.jminix</groupId>
 	<artifactId>jminix</artifactId>
 	<name>jminix</name>
-	<version>1.3.0</version>
+	<version>1.3.0.rf1</version>
 	<description>A simple embeddable restful JMX console</description>
 	<packaging>jar</packaging>
 	<url>http://www.jminix.org</url>
@@ -140,6 +140,7 @@
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<configuration>
 					<source>8</source>
+					<additionalJOption>-Xdoclint:none</additionalJOption>
 					<additionalOptions>
 						<option>--allow-script-in-comments</option>
 					</additionalOptions>
